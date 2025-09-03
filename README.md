@@ -1,4 +1,4 @@
-Remove any leading whitespace from the very first line of README.md
+Remove any leading whitespace characters (spaces or tabs) from the very first line of the README.md file.
 
 This Flask-based web application provides interactive visualizations and analysis of COVID-19 data, including vaccination progress, case trends, and geographic comparisons.
 
