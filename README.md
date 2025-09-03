@@ -1,4 +1,4 @@
-# COVID-19 Data Analysis Application
+Remove any leading whitespace from the very first line of README.md
 
 This Flask-based web application provides interactive visualizations and analysis of COVID-19 data, including vaccination progress, case trends, and geographic comparisons.
 
