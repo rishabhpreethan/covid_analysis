@@ -33,7 +33,7 @@ def load_covid_data():
         response = requests.get(url)
         response.raise_for_status()  # Raise an exception for bad status codes
         
-        covid_data = pd.read_csv(StringIO(response.text))
+response = requests.get(url, timeout=10)
         print("Data loaded successfully")
         print("Total rows:", len(covid_data))
         print("Columns:", covid_data.columns.tolist())
